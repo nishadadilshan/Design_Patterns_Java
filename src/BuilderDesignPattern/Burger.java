@@ -45,6 +45,30 @@ public class Burger {
         private boolean onion;
         private boolean lettuce;
 
+        public void setSize(String size) {
+            this.size = size;
+        }
+
+        public void setEgg(boolean egg) {
+            this.egg = egg;
+        }
+
+        public void setCheese(boolean cheese) {
+            this.cheese = cheese;
+        }
+
+        public void setMayonese(boolean mayonese) {
+            this.mayonese = mayonese;
+        }
+
+        public void setOnion(boolean onion) {
+            this.onion = onion;
+        }
+
+        public void setLettuce(boolean lettuce) {
+            this.lettuce = lettuce;
+        }
+
         public BurgerBuilder size(String size){
             this.size = size;
             return this;
